@@ -1,0 +1,26 @@
+.back{
+           
+    display:block;
+    margin:10px auto;
+   
+}
+.container{
+    width:60%;
+    margin:0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 40px;
+
+}
+.container>*{
+    width: 50%;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+button{
+    background-color: rebeccapurple;
+    color: white;
+}

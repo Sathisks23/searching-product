@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            width: 100%;
+            margin:0 auto;
+           
+            
+        }
+        input{
+            margin:20px 20px;
+            height: 40px;
+        }
+        .innerdiv{
+            width: 80%;
+            display: flex;
+            flex-wrap: wrap;
+            margin:0 auto;
+        }
+        .innerdiv>*{
+            width: 30.5%;
+            height:300px;
+            margin: 10px;
+            cursor: pointer;
+        }
+        h3{
+           text-align: center;
+           padding: 25px;
+        }
+        .card>img{
+            width: 100%;
+            height: 80%;
+        }
+        small,b{
+            display: block;
+            text-align: center;
+        }
+        
+        .head{
+
+           display: flex;
+            gap: 300px;
+            position:sticky;
+            top:0;
+            background-color: white 
+            
+        }
+        
+    </style>
+</head> 
+<body> 
+    <div class="head"> <input type="search" id="input" placeholder="Search here..." autocomplete="off" oninput="search()">   <h3>Our products</h3></div>
+    <div class="container">
+        <div class="innerdiv">
+            <div class="card" id="0"><img src="https://course-api.com/images/store/product-1.jpeg"  alt=""> <small>High-back-bench</small> <b>$5.60</b></div>
+            <div class="card" id="1"><img src="https://course-api.com/images/store/product-2.jpeg"  alt=""> <small>Table </small> <b>$29.0</b></div>
+            <div class="card" id="2"><img src="https://course-api.com/images/store/product-3.jpeg"  alt=""> <small>chair</small> <b>$35.60</b></div>
+            <div class="card" id="3"><img src="https://course-api.com/images/store/product-4.jpeg"  alt=""> <small>Wooden table</small> <b>$52.60</b></div>
+            <div class="card" id="4"><img src="https://course-api.com/images/store/product-5.jpeg"  alt=""> <small>DInning Table</small> <b>$511.60</b></div>
+            <div class="card" id="5"><img src="https://course-api.com/images/store/product-6.jpeg"  alt=""> <small>Sofa set</small> <b>$655.60</b></div>
+            <div class="card" id="6"><img src="https://course-api.com/images/store/product-7.jpeg"  alt=""> <small>Book self</small> <b>$200.60</b></div>
+            <div class="card" id="7"><img src="https://course-api.com/images/store/product-8.jpeg"  alt=""> <small>Emperior wed</small> <b>$512.60</b></div>
+            <div class="card" id="8"><img src="https://course-api.com/images/store/product-9.jpeg"  alt=""> <small>Utopia sofa</small> <b>$315.60</b></div>
+            
+            
+        </div>
+    </div>
+    <script src="./search.js">
+     
+     
+
+
+    </script>
+</body>
+</html>
